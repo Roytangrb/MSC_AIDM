@@ -44,6 +44,9 @@ $('.aboutus-prog-title_maftnm').toggleClass('hide');
 });
 $(".hover-box_mmgt").hover(function(){
 $('.aboutus-prog-title_mmgt').toggleClass('hide');
+});	
+$(".hover-box_mmai").hover(function(){
+$('.aboutus-prog-title_mmai').toggleClass('hide');
 });		
 		 
 	$(document).ready(function() {
@@ -91,7 +94,7 @@ $('.aboutus-prog-title_mmgt').toggleClass('hide');
 				
 			   //if ($(".navbar").offset().top < 50) {$(".navbar-custom").toggleClass('off-color');}
 			   $(".navbar-custom").toggleClass('off');
-			   if (document.getElementsByTagName("body")[0].id!="page-macomm"&&document.getElementsByTagName("body")[0].id!="page-maftnm"&&document.getElementsByTagName("body")[0].id!="page-maijs"&&document.getElementsByTagName("body")[0].id!="page-mmgt"){$(".navbar-custom").toggleClass('off-color');}
+			   if (document.getElementsByTagName("body")[0].id!="page-mmai"&&document.getElementsByTagName("body")[0].id!="page-macomm"&&document.getElementsByTagName("body")[0].id!="page-maftnm"&&document.getElementsByTagName("body")[0].id!="page-maijs"&&document.getElementsByTagName("body")[0].id!="page-mmgt"){$(".navbar-custom").toggleClass('off-color');}
 			   $('.menu-toggle').toggleClass('open');
 			if (i) {
 				/*
@@ -119,6 +122,7 @@ $('.aboutus-prog-title_mmgt').toggleClass('hide');
 			  $("#logo-bu").css("display", "none");
 			  $("#logo-sc").css("display", "none");
 			  
+			  $("#logo-mmai").css("display", "none");
 			  $("#logo-mmgt").css("display", "none");
 			  $("#logo-macomm").css("display", "none");
 			  $("#logo-maftnm").css("display", "none");
@@ -184,7 +188,10 @@ $('.aboutus-prog-title_mmgt').toggleClass('hide');
 		if(floater==false){ 
 		if ($(window).scrollTop() > 0) {			
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
-			$('#page-mmgt .top-nav-collapse, #page-maijs .top-nav-collapse, #page-macomm .top-nav-collapse, #page-maftnm .top-nav-collapse').addClass('off-color');
+			$('#page-mmai .top-nav-collapse, #page-mmgt .top-nav-collapse, #page-maijs .top-nav-collapse, #page-macomm .top-nav-collapse, #page-maftnm .top-nav-collapse').addClass('off-color');
+			
+			$('#page-mmai .menu-toggle').addClass('mmai');
+			$('#page-mmai .nav.navbar-nav .icon_social, #page-mmai .icon_lang a').addClass('mmai');
 			
 			$('#page-mmgt .menu-toggle').addClass('mmgt');
 			$('#page-mmgt .nav.navbar-nav .icon_social, #page-mmgt .icon_lang a').addClass('mmgt');
@@ -198,6 +205,15 @@ $('.aboutus-prog-title_mmgt').toggleClass('hide');
 			$('#page-maijs .menu-toggle').addClass('maijs');
 			$('#page-maijs .navbar-nav .icon_social, #page-maijs .icon_lang a').addClass('maijs');
 			
+			 $("#page-mmai .navbar-header").empty();
+			 $("#page-mmai .navbar-header").append('<div id="logo-mmai">MSocSc IN MEDIA MANAGEMENT</div>');
+			
+			 $("#page-mmai .navbar-header.zh-hans").empty();
+			 $("#page-mmai .navbar-header.zh-hans").append('<div id="logo-mmai">传媒管理社会科学硕士</div>');
+			
+			 $("#page-mmai .navbar-header.zh-hant").empty();
+			 $("#page-mmai .navbar-header.zh-hant").append('<div id="logo-mmai">傳媒管理社會科學碩士</div>');
+
 			 $("#page-mmgt .navbar-header").empty();
 			 $("#page-mmgt .navbar-header").append('<div id="logo-mmgt">MSocSc IN MEDIA MANAGEMENT</div>');
 			 
@@ -237,12 +253,14 @@ $('.aboutus-prog-title_mmgt').toggleClass('hide');
 			
 			//$('#page-maijs .navbar-header').css({'display':'none'});
 		} else {
-			$('#page-mmgt .top-nav-collapse, #page-maijs .top-nav-collapse, #page-macomm .top-nav-collapse, #page-maftnm .top-nav-collapse').removeClass('off-color');
+			$('#page-mmai .top-nav-collapse, #page-mmgt .top-nav-collapse, #page-maijs .top-nav-collapse, #page-macomm .top-nav-collapse, #page-maftnm .top-nav-collapse').removeClass('off-color');
 			$(".navbar-fixed-top").removeClass("top-nav-collapse");
 			/*
 			$('.menu-toggle').css({'background-image':'url(./images/button_menu.svg)'});
 			$('.navbar-nav .icon_social').css({'background-image':'url(./images/icon_social.svg)'});
 			*/
+			$('.menu-toggle').removeClass('mmai');
+			$('.navbar-nav .icon_social, #page-mmai .icon_lang a').removeClass('mmai');
 			$('.menu-toggle').removeClass('mmgt');
 			$('.navbar-nav .icon_social, #page-mmgt .icon_lang a').removeClass('mmgt');
 			$('.menu-toggle').removeClass('macomm');

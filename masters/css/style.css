@@ -211,7 +211,7 @@ code {
 }
 
 .mmgt {
-    color: rgb(254, 203, 48) !important;
+    color: #fc377e !important;
 }
 
 .btn-maftnm {
@@ -231,7 +231,7 @@ code {
 }
 
 .btn-msocsc {
-    background-color: rgb(254, 203, 48);
+    background-color: #fc377e;
     margin-bottom: 10px;
 }
 
@@ -287,7 +287,7 @@ code {
 }
 
 .bg-mmgt {
-    background-color: rgb(254, 203, 48) !important;
+    background-color: #fc377e !important;
     color: #fff;
 }
 
@@ -379,7 +379,7 @@ code {
 }
 
 #logo-mmgt {
-    color: rgb(254, 203, 48);
+    color: #fc377e;
 }
 
 #logo-macomm {
