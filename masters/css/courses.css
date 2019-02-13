@@ -1,0 +1,117 @@
+	
+/* ---------------------------------------------- /*
+ *Courses
+/* ---------------------------------------------- */
+
+#courses {
+padding: 30px 120px 120px 120px;
+max-width: 1170px;
+margin: 0 auto;
+}
+
+#courses .navbar {
+	display: none;
+}
+
+.applynow_progStru a {
+	color: #fff;
+}
+
+.ProgStru{
+	background-color:rgb(130, 130, 130);
+	color:#fff;
+	position:relative;
+	height: 100%;
+	padding: 40px 30px 60px 55px;
+}
+
+.ProgStru table p{
+	padding:0;
+	margin:0;
+}
+
+.course-mmgt {
+	padding: 40px 60px 60px 55px;
+}
+
+#courses h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight: 600;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+#courses .title {
+	font-family: 'Montserrat', sans-serif;
+	  font-size:18px;
+	font-weight: 600;
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+
+#courses table a {
+	color: rgba(255,255,255,1);
+}
+
+#courses table a:hover {
+	color: rgba(255,255,255,.7);
+}
+
+.course-table {
+	width: 900px;
+}
+
+.course-name {
+	width: 70%;
+}
+
+.course-no {
+	width: 150px;
+	margin-right: 20px;
+}
+
+.unit {
+	vertical-align: top;
+	text-align: center;
+}
+
+.faculty {
+	padding: 10px 0 15px 0;
+}
+
+.optional {
+	padding: 2px 0 20px 0;
+}
+
+.cef-no {
+	font-size: 14px;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.remarks {
+	padding: 20px 25px 0 0px;
+}
+
+.remarks_maftnm {
+	padding: 5px 25px 0 0px;
+	font-style: italic !important;
+}
+
+.asterik {
+	margin-right: 10px;
+	width: 20px;
+	float: left;
+}
+
+.applynow_progStru{
+	position: fixed;
+    top: 0;
+	right:0;
+    z-index: 99;
+    display: block;
+	padding: 10px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}

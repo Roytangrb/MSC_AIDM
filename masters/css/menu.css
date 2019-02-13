@@ -1,0 +1,208 @@
+.menu {
+  position: fixed;
+  overflow-y: auto;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 82, 156, 1);
+  -moz-transition: opacity 800ms;
+  -o-transition: opacity 800ms;
+  -webkit-transition: opacity 800ms;
+  transition: opacity 800ms;
+}
+
+ul.child-menu {
+margin-bottom: 20px;
+}
+
+ul.child-menu li a {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  text-transform: none !important;
+  padding-left: 30px;
+  margin: 10px 0;
+  -webkit-font-smoothing: antialiased;
+-ms-font-smoothing: antialiased;
+font-smoothing: antialiased;
+}
+
+.menu .container {
+padding: 0;
+}
+
+.menu.off {
+  opacity: 0;
+  z-index: -1;
+  -moz-transition: opacity 0;
+  -o-transition: opacity 0;
+  -webkit-transition: opacity 0;
+  transition: opacity 0;
+}
+
+.menu .nav,
+.menu .navSoc,
+.menu .nav li {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.menu ul.nav {
+margin: 110px auto 0 auto;
+}
+.menu ul.navSoc {
+margin-left: 6px;
+}
+
+.menu .nav a {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  font-family: 'Montserrat', 'Century Gothic', sans-serif ;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+-ms-font-smoothing: antialiased;
+font-smoothing: antialiased;
+}
+
+.menu .nav a:hover,
+.menu .nav a:focus {
+  color: rgba(255,255,255,1);
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -moz-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+/* ---------------------------------------------- /*
+ * Language Switcher
+/* ---------------------------------------------- */
+
+.icon_lang a {
+	color: #ffffff;
+}
+
+ul.nav {
+  list-style: none;
+}
+ul.nav li.icon_lang {
+    font-family: 'Roboto', 'Apple LiGothic', 'Microsoft YaHei', "微软雅黑", 'SimHei', '黑体', 'STXihei', '华文细黑', sans-serif;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+ul.nav li.icon_lang:hover {
+  background: transparency;
+  color: #fff;
+}
+ul.nav li.icon_lang ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 70px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul.nav li.icon_lang ul li { 
+  background: none; 
+  display: block !important; 
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding-top: 3px;
+  margin-left: 10px;
+}
+ul.nav li.icon_lang ul li:hover { opacity: 0.8;}
+ul.nav li.icon_lang:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.nav .icon_langAll{
+	display:none;
+}
+.nav .icon_langAll a{
+	color:#fff;
+    font-size: 16px;
+	padding:15px 11px !important;
+	font-family: 'Roboto', 'Apple LiGothic', 'Microsoft YaHei', "微软雅黑", 'SimHei', '黑体', 'STXihei', '华文细黑', sans-serif;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+		
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.navbar-nav > li {
+    float: left;
+}
+.navbar-right {
+    width: 200px !important;
+}
+.menu ul.nav {
+margin: 75px auto 0 auto;
+}
+.menu .nav a {
+font-size: 18px;
+line-height: 20px;
+}
+.nav > li > a {
+padding: 8px 15px !important;
+}
+ul.child-menu li a {
+	font-size: 15px !important;
+	line-height: 16px !important;
+	margin: 6px 0;
+}
+.nav .icon_langAll a{
+	font-size: 15px;
+	padding: 6px 12px !important;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+.navbar-nav > li {
+    float: left;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}

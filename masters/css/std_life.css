@@ -1,0 +1,241 @@
+/* ---------------------------------------------- /*
+ *Student Life
+/* ---------------------------------------------- */
+.block {
+    position: relative;
+}
+#studentlife {
+    background: #f7fcff !important;
+}
+.img-box {
+    width: 100%;
+    position: relative;
+}
+.studentlife-box01 a,
+.studentlife-box02 a,
+.studentlife-box03 a {
+    color: rgba(255, 255, 255, 0.9);
+}
+.studentlife-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: none;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: rgba(0,82,156,0.7);
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 15px;
+    display: inline-block;
+}
+#studentlife .in-slide-content {
+    bottom: 20%;
+}
+.studentlife-title01 {
+    color: #00529b;
+}
+.studentlife-title02 {
+    color: #fff;
+}
+.studentlife-text01 {
+    color: #666;
+}
+.video-column {
+    float: right;
+}
+#studentlife-video {
+    border: 4px solid #00529b;
+    border-radius: 5px;
+    width: 100%;
+	height: 260px;
+}
+#student01 {
+    padding: 100px 0 60px 0;
+}
+#student02 {
+    height: 540px;
+}
+#student04 {
+    height: 600px;
+}
+#student03 {
+	height: 460px;
+}
+.studentlife-box01 {
+    width: 95%;
+    min-height: 300px;
+    padding: 20px 40px 0 280px;
+    background-color: #00529b;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.studentlife-box02 {
+    width: 75%;
+    height: auto;
+    padding: 20px 120px 30px 50px;
+    background-color: #00529b;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.studentlife-box03 {
+    width: 95%;
+    height: auto;
+    padding: 20px 25px 30px 270px;
+    background-color: #00529b;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.prospectiveStd_hImage {
+    width: 300px;
+    height: 200px;
+    background-color: #999;
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+.prospectiveStd_vImage {
+    width: 180px;
+    height: 220px;
+    background-color: #ececec;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.currentStd_hImage {
+    width: 350px;
+    height: 200px;
+    background-color: #999;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.alumni_hImage {
+    width: 280px;
+    height: 200px;
+    background-color: #999;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.stdlife_Image{
+		display:none;
+	}
+.intern-logo {
+    width: auto;
+    height: 60px;
+    margin-right: 25px;
+    float: left;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul.app-doc {
+    list-style: disc;
+    -webkit-padding-start: 20px;
+    width: 100%;
+}
+ol.alumni-steps {
+	counter-reset: item;
+	margin-left: 17px;
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+#student01 {
+    padding: 60px 0;
+}
+#studentlife-video {
+	height: 500px;
+}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+	.prospectiveStd_vImage, .prospectiveStd_hImage, .currentStd_hImage, .alumni_hImage{
+		display:none;
+	}
+	.block {
+		position: static;
+	}
+	.studentlife-box01, .studentlife-box02, .studentlife-box03  {
+		width: 100%;
+		position: static;
+		padding: 25px 35px;
+	}
+	.stdlife_Image{
+		display:block;
+	}
+	#student01 {
+		padding: 30px 0 65px 0;
+	}
+	#student02, #student03, #student04 {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.studentlife-title02 {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.studentlife-box01, .studentlife-box02, .studentlife-box03  {
+		min-height: inherit;
+	}
+	#studentlife-video {
+	height: 480px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.studentlife-title {
+	font-size: 28px;
+	padding: 13px;
+	}
+	.studentlife-title01 {
+	font-size: 26px;
+	margin-bottom: 20px;
+	}
+	.studentlife-title02 {
+    margin-top: 0px;
+	font-size: 21px;
+	margin-bottom: 20px;
+	}
+	.studentlife-box01, .studentlife-box02, .studentlife-box03  {
+		padding: 25px;
+		font-size: 13px;
+		line-height: 17px;
+	}
+	
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {
+	#studentlife-video {
+	height: 210px;
+	}
+
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+
+}
+/* Small Devices, Tablets */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}

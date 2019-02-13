@@ -1,0 +1,49 @@
+	
+/* ---------------------------------------------- /*
+ *Course Description
+/* ---------------------------------------------- */
+
+#course-description {
+padding: 60px 80px;
+}
+
+#course-description .navbar {
+	display: none;
+}
+
+#course-description h4 {
+line-height: 22px;
+}
+
+#course-description li {
+	margin-left: 20px;
+}
+
+#course-description ol  {
+	margin-left: 0px;
+}
+
+.reference {
+	font-size: 14px;
+	text-transform: none;
+	font-style:italic;
+	font-weight: normal;
+}
+
+.course-title {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 18px;
+	padding-top: 30px;
+}
+
+/* Extra Small Devices, Phones */
+	
+@media only screen and (max-width : 479px){
+	
+#course-description {
+padding: 40px;
+}	
+
+}
