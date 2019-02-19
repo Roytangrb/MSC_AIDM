@@ -171,6 +171,10 @@ padding-top: 80px;
     #page-mmai .in-image-content {
         bottom: 32%;
     }
+
+    #page-mmai #prog-Curriculum {
+        height: 2920px;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -183,5 +187,9 @@ padding-top: 80px;
         
         #page-mmai #section5 {
         padding-top: 0px;
+        }
+
+        #page-mmai #prog-Curriculum {
+            height: 3320px;
         }
 }

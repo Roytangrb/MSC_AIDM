@@ -206,13 +206,13 @@ $('.aboutus-prog-title_mmai').toggleClass('hide');
 			$('#page-maijs .navbar-nav .icon_social, #page-maijs .icon_lang a').addClass('maijs');
 			
 			 $("#page-mmai .navbar-header").empty();
-			 $("#page-mmai .navbar-header").append('<div id="logo-mmai">MSocSc IN MEDIA MANAGEMENT</div>');
+			 $("#page-mmai .navbar-header").append('<div id="logo-mmai">MSC IN AI and Digital Media</div>');
 			
 			 $("#page-mmai .navbar-header.zh-hans").empty();
-			 $("#page-mmai .navbar-header.zh-hans").append('<div id="logo-mmai">传媒管理社会科学硕士</div>');
+			 $("#page-mmai .navbar-header.zh-hans").append('<div id="logo-mmai">人工智能與數字媒體科学硕士</div>');
 			
 			 $("#page-mmai .navbar-header.zh-hant").empty();
-			 $("#page-mmai .navbar-header.zh-hant").append('<div id="logo-mmai">傳媒管理社會科學碩士</div>');
+			 $("#page-mmai .navbar-header.zh-hant").append('<div id="logo-mmai">人工智能與數字媒體科学硕士</div>');
 
 			 $("#page-mmgt .navbar-header").empty();
 			 $("#page-mmgt .navbar-header").append('<div id="logo-mmgt">MSocSc IN MEDIA MANAGEMENT</div>');
