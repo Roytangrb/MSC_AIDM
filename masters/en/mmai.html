@@ -38,6 +38,22 @@
     #section3 h4{
         color: #fecb30;
     }
+    .title-stroke{
+        color: white;
+        -webkit-text-stroke: 3px #fecb30;
+        /* text-shadow:
+            -3px -3px 0 #fecb30,  
+            3px -3px 0 #fecb30,
+            -3px 3px 0 #fecb30,
+            3px 3px 0 #fecb30; */
+    }
+    .title-row td{
+        background-color: rgba(120, 120, 120, 1)
+    }
+    .img-opacity{
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+    }
     </style>
     
 
@@ -83,10 +99,10 @@
     <div id="top-slides">
         <ul class="slides-container">
             <li>
-                <img src="images/bg_mmai.JPG" alt="MSocSc In Media Management">
+                <img src="images/bg_mmai.JPG" alt="MSocSc In Media Management" class="img-opacity">
                 <div class="container in-slide-content">
                     <p class="sub-title">POSTGRADUATE PROGRAMMES</p>
-                    <h2 class="ma-title mmai"><span class="small-letters">MSC</span> IN AI AND DIGITAL MEDIA</h2>
+                    <h2 class="ma-title title-stroke" ><span class="small-letters">MSC</span> IN AI AND DIGITAL MEDIA</h2>
                     <p class="slide-description"></p>
                     <a href="https://iss.hkbu.edu.hk/amsappl_pg/welcome.jsf" target="_blank">
                         <button type="button" class="btn btn-mmai">APPLY NOW</button>
@@ -96,7 +112,7 @@
         </ul>
     </div>
 					<div class="row progheader">
-                        <img src="images/bg_mmai2.JPG" alt="MSocSc In Media Management" class="img-responsive">
+                        <img class="img-opacity" src="images/bg_mmai2.JPG" alt="MSocSc In Media Management" class="img-responsive">
 						<div class="container in-image-content">
 							<p class="sub-title">POSTGRADUATE PROGRAMMES</p>
 							<h2 class="ma-title mmai"><span class="small-letters">MSC</span> IN AI AND DIGITAL MEDIA</h2>
@@ -185,7 +201,7 @@
                             <tr>
                                 <td colspan="3"><strong>Schedule 1: Computer Science Background</strong></td>
                             </tr>
-                            <tr>
+                            <tr class="title-row">
                                 <td><strong>Course Title</strong></td>
                                 <td><strong>Course Type</strong></td>
                                 <td><strong>Units</strong></td>
@@ -228,7 +244,7 @@
                             <tr>
                                 <td colspan="3"><strong>Schedule 2: Media and Communication Background</strong></td>
                             </tr>
-                            <tr>
+                            <tr class="title-row">
                                 <td><strong>Course Title</strong></td>
                                 <td><strong>Course Type</strong></td>
                                 <td><strong>Units</strong></td>
@@ -268,7 +284,7 @@
                     </ul>
                     <table style="width:100%; padding-left:10px;">
                         <tbody>
-                            <tr>
+                            <tr class="title-row">
                                 <td><strong>Course Title</strong></td>
                                 <td><strong>Course Type</strong></td>
                                 <td><strong>Units</strong></td>
@@ -314,7 +330,7 @@
                     </ul>
                     <table style="width:100%; padding-left:10px;">
                         <tbody>
-                            <tr>
+                            <tr class="title-row">
                                 <td><strong>Course Title</strong></td>
                                 <td><strong>Course Type</strong></td>
                                 <td><strong>Units</strong></td>
@@ -348,7 +364,7 @@
                     <h4>A list of core elective and free elective courses</h4>
                     <table style="width:100%; padding-left:10px;">
                         <tbody>
-                            <tr>
+                            <tr class="title-row">
                                 <td><strong>Course Title</strong></td>
                                 <td><strong>Course Type</strong></td>
                                 <td><strong>Units</strong></td>
