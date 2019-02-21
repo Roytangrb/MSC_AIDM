@@ -51,9 +51,9 @@
         background-color: rgba(120, 120, 120, 1);
         text-align: center;
     }
-    .img-opacity{
-        /* opacity: 0.5;
-        filter: alpha(opacity=50);  */
+    ::-webkit-scrollbar {
+        width: 0px;  /* remove scrollbar space */
+        background: transparent;  /* optional: just make scrollbar invisible */
     }
     </style>
     
@@ -160,7 +160,7 @@
                     </p>
                     <p class="col-md-6"><strong>Dr. Li CHEN</strong>
                         <br> Associate Professor, 
-                        <br> Director of MSc in AI and Digital Media, School of Communication, 
+                        <br> Director of MSc in AI and Digital Media,
                         <br> Concentration Coordinator of Data and Media Communication, BSc (Hons) in Computer Science
                         <br> Department of Computer Science, Faculty of Science
                     </p>
@@ -196,18 +196,17 @@
                     <div style="overflow:scroll;">
                         <h1 class="prog-title">Curriculum Design</h1>
                         <h4>Schedule</h4>
-                        <table style="width:100%; padding-left:10px;">
+                        <table style="width: 100%;">
                             <tbody>
                                 <tr class="title-row">
                                     <td><strong>Student background</strong></td>
-                                    <td colspan="3"><strong>Semester 1</strong></td>
+                                    <td colspan="2"><strong>Semester 1</strong></td>
                                     <td><strong>Semester 2</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Computer Science</td>
                                     <td>Basics in Media and Communication</td>
-                                    <td rowspan="3">AI for Digital Media</td>
-                                    <td rowspan="3">At least one core elective<br><br>At least one free elective</td>
+                                    <td rowspan="3" style="text-align:center">AI for Digital Media<br> + <br>At least one core elective<br> + <br>At least one free elective</td>
                                     <td rowspan="3" style="text-align:center">AI and Digital Media Workshop<br><br>Four core elective / free elective courses</td>
                                 </tr>
                                 <tr>
@@ -224,8 +223,8 @@
                                 </tr>
                                 <tr class="title-row">
                                     <td><strong>Total Units</strong></td>
-                                    <td colspan="3"><strong>15 (five courses)</strong></td>
-                                    <td ><strong>15 (five courses</strong>)</td>
+                                    <td colspan="2"><strong>15 (five courses)</strong></td>
+                                    <td ><strong>15 (five courses)</strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -272,7 +271,8 @@
     </div>
     <!-- section3 -->
 
-    <div class="section  hidden-xs hidden-sm" id="section4">
+    <div class="section" id="section4">
+            <!-- hidden-xs hidden-sm -->
         <div id="prog-Staff" class="row">
 
             <div id="staff-data" class="carousel slide container" data-ride="carousel">
@@ -493,7 +493,7 @@
                         </div>
 
                     </div>
-
+                </div>
                     <!-- <div class="item">
 
                         <div class="container text-center">
