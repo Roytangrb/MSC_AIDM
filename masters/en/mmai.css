@@ -189,5 +189,10 @@ padding-top: 80px;
         .img-cover{
             margin-left: -50%;
             margin-top: -30%;
+            height: 70vh;
+        }
+
+        .progheader{
+            min-height: 100vh;
         }
 }

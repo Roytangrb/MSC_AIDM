@@ -206,7 +206,7 @@ $('.aboutus-prog-title_mmai').toggleClass('hide');
 			$('#page-maijs .navbar-nav .icon_social, #page-maijs .icon_lang a').addClass('maijs');
 			
 			 $("#page-mmai .navbar-header").empty();
-			 $("#page-mmai .navbar-header").append('<div id="logo-mmai">MSC IN AI and Digital Media</div>');
+			 $("#page-mmai .navbar-header").append('<div id="logo-mmai">MSc IN AI and Digital Media</div>');
 			
 			 $("#page-mmai .navbar-header.zh-hans").empty();
 			 $("#page-mmai .navbar-header.zh-hans").append('<div id="logo-mmai">人工智能與數字媒體科学硕士</div>');
