@@ -155,6 +155,7 @@
 #prog-Curriculum {
     min-height: 600px;
 }
+
 .curriculum_description {
     width: 70%;
     min-height: 360px;
@@ -487,10 +488,10 @@ and (max-width : 1300px)
 	}
 	/* MMGT */
 	#page-mmgt .prog_in-slide-content {
-		background-color: #FF327D;
+		background-color: #fc377e;
 	}
 	#page-mmgt .btn-prog:hover {
-		color: #ff327d;
+		color: #fc377e;
 	}
 	#page-mmgt #section5 {
 	padding-top: 0px;
@@ -647,7 +648,7 @@ and (max-device-width : 1024px),
 	}
 	.prog_in-slide-content {
 		color: #333;
-		background-color: #FF327D;
+		background-color: #fc377e;
 		font-family: 'Roboto', sans-serif;
 		margin-left: auto;
 		margin-right: auto;

@@ -333,13 +333,11 @@ overflow-x: hidden;
 	
 @media only screen and (max-width : 479px){
 
-.slidebg-m {
-	padding-top: 0px !important;
-}	
+	.slidebg-m {
+		padding-top: 0px !important;
+	}	
 
-#aboutus .slide-description {
-	line-height: 18px;
-}
-
-
+	#aboutus .slide-description {
+		line-height: 18px;
+	}
 }
